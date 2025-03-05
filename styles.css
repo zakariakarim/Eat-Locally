@@ -1,0 +1,141 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfaf3;
+    color: #4a3f35;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #f5efe0;
+    margin-bottom: 2rem;
+}
+
+header .logo img {
+    width: 150px;
+    height: auto;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0.5rem 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4a3f35;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+section {
+    margin: 4rem 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #4a3f35;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.card {
+    width: 300px;
+    background-color: #f5efe0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card p {
+    font-size: 1.4rem;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.card span {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #6d5c4a;
+}
+
+.map-container {
+    margin: 2rem auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 60%;
+    margin: auto;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 1rem 2rem;
+    background-color: #4a3f35;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #6d5c4a;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #f5efe0;
+}
+
+.opinione {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #4a3f35;
+}
